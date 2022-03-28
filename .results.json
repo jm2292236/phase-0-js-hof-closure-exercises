@@ -1,0 +1,321 @@
+{
+  "stats": {
+    "suites": 10,
+    "tests": 19,
+    "passes": 16,
+    "pending": 0,
+    "failures": 3,
+    "start": "2022-03-27T21:54:04.468Z",
+    "end": "2022-03-27T21:54:04.825Z",
+    "duration": 357
+  },
+  "tests": [
+    {
+      "title": "calls the callback with the element, index, and original array",
+      "fullTitle": "index.js forEach calls the callback with the element, index, and original array",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to be true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to be true\n    at Context.<anonymous> (test/indexTest.js:27:58)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    },
+    {
+      "title": "returns a new array",
+      "fullTitle": "index.js map returns a new array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "applies calback to all elements in the new array",
+      "fullTitle": "index.js map applies calback to all elements in the new array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a new array",
+      "fullTitle": "index.js filter returns a new array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "keeps the elements that return true for the given callback",
+      "fullTitle": "index.js filter keeps the elements that return true for the given callback",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns true when the callback returns true for all elements",
+      "fullTitle": "index.js every returns true when the callback returns true for all elements",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns false when the callback doesn't return true for all elements",
+      "fullTitle": "index.js every returns false when the callback doesn't return true for all elements",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns true when the callback returns true for at least one element",
+      "fullTitle": "index.js some returns true when the callback returns true for at least one element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns false when the callback doesn't return true for any elements",
+      "fullTitle": "index.js some returns false when the callback doesn't return true for any elements",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns true if the callback returns true for the majority of elements",
+      "fullTitle": "index.js majority returns true if the callback returns true for the majority of elements",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns false if the callback doesn't return true for the majority of elements",
+      "fullTitle": "index.js majority returns false if the callback doesn't return true for the majority of elements",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a function",
+      "fullTitle": "index.js once returns a function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the correct result by calling the callback",
+      "fullTitle": "index.js once returns the correct result by calling the callback",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected NaN to equal 10",
+        "showDiff": true,
+        "actual": "NaN",
+        "expected": "10",
+        "stack": "AssertionError: expected NaN to equal 10\n    at Context.<anonymous> (test/indexTest.js:123:27)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    },
+    {
+      "title": "called the callback only once",
+      "fullTitle": "index.js once called the callback only once",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the saved result on subsequent calls",
+      "fullTitle": "index.js once returns the saved result on subsequent calls",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected NaN to equal 10",
+        "showDiff": true,
+        "actual": "NaN",
+        "expected": "10",
+        "stack": "AssertionError: expected NaN to equal 10\n    at Context.<anonymous> (test/indexTest.js:131:27)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    },
+    {
+      "title": "returns an object",
+      "fullTitle": "index.js groupBy returns an object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "group array items together based on the callback return value",
+      "fullTitle": "index.js groupBy group array items together based on the callback return value",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an object",
+      "fullTitle": "index.js arrayToObject returns an object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "object has original array elements as keys and the result of the callback as values",
+      "fullTitle": "index.js arrayToObject object has original array elements as keys and the result of the callback as values",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "calls the callback with the element, index, and original array",
+      "fullTitle": "index.js forEach calls the callback with the element, index, and original array",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to be true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to be true\n    at Context.<anonymous> (test/indexTest.js:27:58)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    },
+    {
+      "title": "returns the correct result by calling the callback",
+      "fullTitle": "index.js once returns the correct result by calling the callback",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected NaN to equal 10",
+        "showDiff": true,
+        "actual": "NaN",
+        "expected": "10",
+        "stack": "AssertionError: expected NaN to equal 10\n    at Context.<anonymous> (test/indexTest.js:123:27)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    },
+    {
+      "title": "returns the saved result on subsequent calls",
+      "fullTitle": "index.js once returns the saved result on subsequent calls",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected NaN to equal 10",
+        "showDiff": true,
+        "actual": "NaN",
+        "expected": "10",
+        "stack": "AssertionError: expected NaN to equal 10\n    at Context.<anonymous> (test/indexTest.js:131:27)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "returns a new array",
+      "fullTitle": "index.js map returns a new array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "applies calback to all elements in the new array",
+      "fullTitle": "index.js map applies calback to all elements in the new array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a new array",
+      "fullTitle": "index.js filter returns a new array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "keeps the elements that return true for the given callback",
+      "fullTitle": "index.js filter keeps the elements that return true for the given callback",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns true when the callback returns true for all elements",
+      "fullTitle": "index.js every returns true when the callback returns true for all elements",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns false when the callback doesn't return true for all elements",
+      "fullTitle": "index.js every returns false when the callback doesn't return true for all elements",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns true when the callback returns true for at least one element",
+      "fullTitle": "index.js some returns true when the callback returns true for at least one element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns false when the callback doesn't return true for any elements",
+      "fullTitle": "index.js some returns false when the callback doesn't return true for any elements",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns true if the callback returns true for the majority of elements",
+      "fullTitle": "index.js majority returns true if the callback returns true for the majority of elements",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns false if the callback doesn't return true for the majority of elements",
+      "fullTitle": "index.js majority returns false if the callback doesn't return true for the majority of elements",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a function",
+      "fullTitle": "index.js once returns a function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "called the callback only once",
+      "fullTitle": "index.js once called the callback only once",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an object",
+      "fullTitle": "index.js groupBy returns an object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "group array items together based on the callback return value",
+      "fullTitle": "index.js groupBy group array items together based on the callback return value",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an object",
+      "fullTitle": "index.js arrayToObject returns an object",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "object has original array elements as keys and the result of the callback as values",
+      "fullTitle": "index.js arrayToObject object has original array elements as keys and the result of the callback as values",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}

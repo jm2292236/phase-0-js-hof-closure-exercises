@@ -140,6 +140,7 @@ describe('index.js', function(){
     it('returns an object', function() {
       expect(result).to.be.an('object');
     })
+    
 
     it('group array items together based on the callback return value', function() {
       expect(result).to.be.eql({
